@@ -4,19 +4,19 @@ st.sidebar.header("Navigation")
 
 pg = st.navigation(pages=[
     st.Page(
-        page="Pages/Home.py",
+        page="Home.py",
         title="Home",
         icon="🏠",
         default=True
     ),
     st.Page(
-        page="Pages/Data.py",
+        page="Data.py",
         title="Data",
         icon="📊",
         # default = True
     ),
     st.Page(
-        page="Pages/Charts.py",
+        page="Charts.py",
         title="Charts",
         icon="📈",
     )
